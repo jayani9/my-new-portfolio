@@ -13,7 +13,9 @@ const Technologies = () => {
     return (
         <div className='border-b border-neutral-800 pb-24'>
             <h1 className='my-20 text-center font-inter font-bold text-4xl text-purple-400'>Techno<span className='text-blue-400'>logies</span></h1>
-            <div className='flex flex-wrap items-center justify-center gap-4'>
+            <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+                viewport={{ once: false, amount: 0.2 }} className='flex flex-wrap items-center justify-center gap-4'>
                 <motion.div whileHover={{
                     scale: 1.2,
                     transition: { duration: 1 },
@@ -86,7 +88,7 @@ const Technologies = () => {
                         className="w-[72px] h-[72px]"
                     />
                 </motion.div>
-            </div>
+            </motion.div>
 
         </div>
     )

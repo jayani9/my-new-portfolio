@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from "../constants"
-import jayani from "./../assets/jayani.jpeg"
+import jayani from "./../assets/jay.jpg"
 import { motion } from "framer-motion"
 
 const Hero = () => {
@@ -20,7 +20,10 @@ const Hero = () => {
                     <p className='my-2 max-w-xl text-blue-200'>
                         {HERO_CONTENT}
                     </p>
+                    
                     <button className="mb-20 bg-gradient-to-r from-purple-900 to-blue-400 text-white font-bold mt-5 py-2 px-6 rounded-lg transition duration-300 ease-in-out w-36">Hire me</button>
+                    
+                    
                 </motion.div>
 
             </div>
@@ -28,7 +31,7 @@ const Hero = () => {
                 transition={{ duration: 0.6, ease: "easeOut" }}
                 viewport={{ once: false, amount: 0.2 }} className='w-full lg:w-1/2 lg:p-12'>
                 <div className='flex justify-center lg:pl-34'>
-                    <img className='h-130 w-100' src={jayani} alt="profpic" />
+                    <img className='h-130 w-130' src={jayani} alt="profpic" />
 
                 </div>
 

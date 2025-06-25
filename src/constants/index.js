@@ -13,11 +13,25 @@ I am eager to apply my knowledge in a professional setting, learn from experienc
   sections: [
     {
       title: "Frontend Technologies",
-      items: ["ReactJS", "JavaScript", "HTML", "CSS", "TailwindCSS", "VueJS", "Angular"],
+      items: [
+        "ReactJS",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "TailwindCSS",
+        "VueJS",
+        "Angular",
+      ],
     },
     {
       title: "Backend Technologies",
-      items: ["Node.js", "Express.js", "REST APIs", "Web Tokens (JWT)", "WebSockets"],
+      items: [
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "Web Tokens (JWT)",
+        "WebSockets",
+      ],
     },
     {
       title: "Database Management",
@@ -42,28 +56,23 @@ I am eager to apply my knowledge in a professional setting, learn from experienc
   ],
 };
 
-
 export const EXPERIENCES = [
   {
     year: "2024 - Present",
     role: "Data Network Assistant",
     company: "JAMK University of Applied Sciences",
-    description: `Material Management and Assistant to the lecturer`,
+    description: `Material Management and Assistant to the lecturer, Testing configurations of the network, 
+Maintain user access permissions and support VPN and firewall configurations, 
+Conduct basic tests of network hardware and software, 
+Assist in monitoring network traffic to identify bottlenecks or performance issues,
+Help with the deployment of new subnets or network expansions, 
+Testing DHCP, DNS, TCP/IP protocols, HTTP testing using wireshark as a tool, Shell scripting, Using VMWare and Linux Ubuntu Operating system`,
   },
   {
     year: "2019 - 2023",
     role: "Business Development Executive",
     company: "Hayleys Aventura (PVT) Ltd.",
-    description: `- Achieving new projects for innovative products and technologies and target revenue and GP./
-- Introducing new innovations/technologies/products/trends to the market.
-- Supporting the collaboration between the clients and the overseas supplier.
-- Procuring new clients through direct contact and word-of-mouth.
-- Negotiating with suppliers to secure the most attractive prices.
-- Reviewing clients' feedback and implementing necessary change.
-- Engaging with overseas suppliers to retain continuous support for the clients.
-- Obtaining technical trainings with overseas suppliers.
-- Arranging & presenting the technical & sales presentations for internal parties as well as for outbound customers.`,
-
+    description: `Achieving new projects for innovative products and technologies and target revenue and GP, Introducing new innovations/technologies/products/trends to the market, Supporting the collaboration between the clients and the overseas supplier, Procuring new clients through direct contact and word-of-mouth, Negotiating with suppliers to secure the most attractive prices, Reviewing clients' feedback and implementing necessary change, Engaging with overseas suppliers to retain continuous support for the clients, Obtaining technical trainings with overseas suppliers, Arranging & presenting the technical & sales presentations for internal parties as well as for outbound customers.`,
   },
   {
     year: "2015 - 2019",
@@ -110,15 +119,35 @@ export const PROJECTS = [
 
 export const EDUCATION = [
   {
-    title: "Bachelor of Engineering in Information and Communication Technology",
-    description:
-      "JAMK University of Applied Sciences",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    title:
+      "Bachelor of Engineering in Information and Communication Technology",
+    description: "JAMK University of Applied Sciences",
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Data Networks",
+      "Python",
+      ".NET",
+      "Networking",
+      "OOP",
+      "Data Analysis",
+      "Troubleshooting",
+      "Bug fixing",
+      "Mobile application Development",
+      "Android Application Development",
+      "Software Development",
+      "Kotlin",
+      "Flutter",
+      "Android studio",
+      "Linux", "Shell Scripting","Ubuntu", "VMware", "Docker", "GCP", "Virtual machines"
+    ],
   },
   {
     title: "Bachelor of Science in Biological Science",
-    description:
-      "University of Sri Jayewardenepura, Sri Lanka",
-    technologies: ["Zoology","Chemistry","Microbiology"],
-  }
-]
+    description: "University of Sri Jayewardenepura, Sri Lanka",
+    technologies: ["Zoology", "Chemistry", "Microbiology"],
+  },
+];
