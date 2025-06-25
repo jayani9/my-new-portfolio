@@ -5,8 +5,8 @@ import { SiMongodb } from "react-icons/si"
 import pythonlogo from "../assets/pythonlogo.svg"
 import { FaNodeJs } from "react-icons/fa"
 import sqlimg from "../assets/sql.svg"
-import vueimg from "../assets/Vue.png"
-import angularimg from "../assets/angular.png"
+import androidimg from "../assets/android.png"
+import flutterimg from "../assets/flutter.png"
 import { motion } from "framer-motion"
 
 const Technologies = () => {
@@ -70,7 +70,7 @@ const Technologies = () => {
                 }}
                     whileTap={{ scale: 0.9 }} className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <img
-                        src={vueimg}
+                        src={androidimg}
                         alt="Vue"
                         className="w-[72px] h-[72px]"
                     />
@@ -81,7 +81,7 @@ const Technologies = () => {
                 }}
                     whileTap={{ scale: 0.9 }} className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <img
-                        src={angularimg}
+                        src={flutterimg}
                         alt="Angular"
                         className="w-[72px] h-[72px]"
                     />

@@ -14,7 +14,7 @@ function App() {
       <div className='fixed top-0 -z-10 h-full w-full'>
 
       </div>
-      <div className="bg-gradient-to-tl from-blue-400 via-purple-700 to-black">  
+      <div className="bg-gradient-to-l from-pink-700 via-purple-700 to-gray-800">  
           <div className='container mx-auto px-8 font-inter font-light'>
             <Navbar/>
             <Hero/>

@@ -1,9 +1,9 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.jpeg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a final-year undergraduate student with 178 credits completed out of 240 in my degree program, actively seeking a practical training opportunity to fulfill my course requirements and gain real-world industry experience. I am enthusiastic about software development and have completed coursework in Full Stack Programming, Mobile Application Development, Android App Development, Web Server Programming, Web Visualization, Data Structures and Algorithms with python, IT service platforms and Object Oriented Programming.`;
+export const HERO_CONTENT = `I am a final-year undergraduate student with 183 credits completed out of 240 in my degree program, actively seeking a practical training opportunity to fulfill my course requirements and gain real-world industry experience. I am enthusiastic about software development and have completed coursework in Full Stack Programming, Mobile Application Development, Android App Development, Web Server Programming, Web Visualization, Data Structures and Algorithms with python, IT service platforms and Object Oriented Programming.`;
 
 export const ABOUT_TEXT = {
   description: `Through the above courses, I’ve gained strong hands-on skills in modern web technologies, particularly React.js, Node.js, MongoDB, Python, C#.NET, Docker and REST API integration. I have built several projects using these technologies and am confident in my ability to contribute to both front-end and back-end development tasks.
@@ -101,7 +101,7 @@ export const PROJECTS = [
   },
   {
     title: "Flutter Application",
-    image: project3,
+    image: project4,
     description:
       "Developed and deployed a cross-platform mobile application using Flutter. Ensured performance optimization and followed best practices for scalable code architecture.",
     technologies: ["React", "Tailwind", "Framer-motion"],
