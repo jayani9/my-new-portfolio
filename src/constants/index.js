@@ -2,8 +2,10 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpeg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";  
 
-export const HERO_CONTENT = `I am a final-year undergraduate student with 183 credits completed out of 240 in my degree program, actively seeking a practical training opportunity to fulfill my course requirements and gain real-world industry experience. I am enthusiastic about software development and have completed coursework in Full Stack Programming, Mobile Application Development, Android App Development, Web Server Programming, Web Visualization, Data Structures and Algorithms with python, IT service platforms and Object Oriented Programming.`;
+export const HERO_CONTENT = `I am a final-year undergraduate student with 217 credits completed out of 240 in my degree program, actively seeking a training opportunity to gain real-world industry experience. I am enthusiastic about software development and Data Analytics and Artificial Intelligence and have completed coursework in Full Stack Programming, Mobile Application Development, Android App Development, Web Server Programming, Web Visualization, Data Structures and Algorithms with python, Object Oriented Programming, Data Analytics and Machine Learning, Deep Learning, Data Preprocessing, Data Visulization, AI/DA project, IT service Platforms (Docker and GCP Technologies)`;
 
 export const ABOUT_TEXT = {
   description: `Through the above courses, I’ve gained strong hands-on skills in modern web technologies, particularly React.js, Node.js, MongoDB, Python, C#.NET, Docker and REST API integration. I have built several projects using these technologies and am confident in my ability to contribute to both front-end and back-end development tasks.
@@ -58,27 +60,61 @@ I am eager to apply my knowledge in a professional setting, learn from experienc
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "Sep 2025-  Present ",
+    role: "Full Stack Developer - Internship",
+    company: "Katch",
+    description: [
+  "Identified, analyzed, and fixed bugs in web and mobile applications",
+  "Debugged front-end and back-end issues to improve application performance and stability",
+  "Assisted in resolving UI/UX issues and functional errors reported by users and QA teams",
+  "Wrote clean, maintainable code while following best practices",
+  "Designed and implemented user interface components based on design guidelines and mockups",
+  "Improved existing UI elements to enhance usability and responsiveness",
+  "Ensured cross-browser and cross-device compatibility",
+  "Supported the development and maintenance of server-side logic and APIs",
+  "Helped optimize application performance and application security",
+  "Implemented new features according to project requirements",
+  "Wrote and executed basic unit and integration tests",
+  "Ensured that fixes and new features met functional and technical requirements",
+  "Collaborated with the development team using version control tools such as Git"
+],
+  },
+  {
+    year: "May 2024- Oct 2025 ",
     role: "Data Network Assistant",
     company: "JAMK University of Applied Sciences",
-    description: `Material Management and Assistant to the lecturer, Testing configurations of the network, 
-Maintain user access permissions and support VPN and firewall configurations, 
-Conduct basic tests of network hardware and software, 
-Assist in monitoring network traffic to identify bottlenecks or performance issues,
-Help with the deployment of new subnets or network expansions, 
-Testing DHCP, DNS, TCP/IP protocols, HTTP testing using wireshark as a tool, Shell scripting, Using VMWare and Linux Ubuntu Operating system`,
+    description: [
+      "Material management and assisting lecturers during lab sessions",
+      "Testing and configuring network setups",
+      "Maintaining user access permissions and supporting VPN and firewall configurations",
+      "Conducting basic tests of network hardware and software",
+      "Monitoring network traffic to identify bottlenecks and performance issues",
+      "Assisting in deployment of new subnets and network expansions",
+      "Testing DHCP, DNS, TCP/IP protocols and HTTP traffic using Wireshark",
+      "Shell scripting and working with VMware and Linux (Ubuntu)"
+    ],
   },
   {
-    year: "2019 - 2023",
+    year: "Dec 2019  - Aug 2023",
     role: "Business Development Executive",
     company: "Hayleys Aventura (PVT) Ltd.",
-    description: `Achieving new projects for innovative products and technologies and target revenue and GP, Introducing new innovations/technologies/products/trends to the market, Supporting the collaboration between the clients and the overseas supplier, Procuring new clients through direct contact and word-of-mouth, Negotiating with suppliers to secure the most attractive prices, Reviewing clients' feedback and implementing necessary change, Engaging with overseas suppliers to retain continuous support for the clients, Obtaining technical trainings with overseas suppliers, Arranging & presenting the technical & sales presentations for internal parties as well as for outbound customers.`,
+    description: [
+      "Achieving new projects for innovative products and technologies while meeting revenue targets",
+      "Introducing new innovations, technologies, and market trends",
+      "Coordinating between clients and overseas suppliers",
+      "Procuring new clients through direct engagement and referrals",
+      "Negotiating with suppliers to secure competitive pricing",
+      "Reviewing client feedback and implementing improvements",
+      "Maintaining long-term relationships with overseas suppliers",
+      "Participating in technical training sessions with international suppliers",
+      "Preparing and delivering technical and sales presentations for internal teams and customers"
+    ],
   },
   {
-    year: "2015 - 2019",
+    year: "Jan 2015 - Dec 2019",
     role: "Sales Assistant",
     company: "Queens Mobile",
-    description: `Gain new orders for mobile phones and achieve the target revenue.`,
+    description: ['Gain new orders for mobile phones and achieve the target revenue.'],
   },
 ];
 /* export const Technologies =[
@@ -114,6 +150,20 @@ export const PROJECTS = [
     description:
       "Developed and deployed a cross-platform mobile application using Flutter. Ensured performance optimization and followed best practices for scalable code architecture.",
     technologies: ["React", "Tailwind", "Framer-motion"],
+  },
+  {
+    title: "Kyky-React Application",
+    image: project5,
+    description:
+      "Bug-fixing and feature development in a React-based web and mobile application. Collaborated with the development team to enhance user experience for responsiveness and ensure code quality.Supported the development and maintenance of server-side logic and APIs",
+    technologies: ["React", "SCSS","Firebase", "Github",],
+  },
+  {
+    title: "My Thesis",
+    image: project6,
+    description:
+      "Data collection and analysis of an Autonomous robotic system to optimize its performance and the behavior",
+    technologies: ["Python"],
   },
 ];
 

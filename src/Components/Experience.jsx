@@ -24,7 +24,7 @@ const Experience = () => {
 
                                 </span>
                             </h6>
-                            <p>{experience.description}</p>
+                            <ul>{experience.description.map((item, i) =><li key={i}>{item}</li>)}</ul>
                         </motion.div>
                     </div>
                 ))}

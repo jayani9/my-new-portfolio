@@ -27,6 +27,7 @@ const Hero = () => {
             Full Stack / Mobile / Android{" "}
             <span className="text-blue-400">Developer</span>
           </span>
+          <span className="text-purple-400 text-4xl font-bold tracking-tight">/ Data <span className="text-blue-400">Analyst</span></span>
           <p className="my-2 max-w-xl text-blue-200">{HERO_CONTENT}</p>
           
             
